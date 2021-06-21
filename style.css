@@ -1,0 +1,35 @@
+* {
+    position: relative;
+    bottom: 10px;
+}
+
+html {
+    background-color: rgba(14, 13, 13, 0.767);
+}
+.container {
+    position: absolute;
+    top: 150px;
+    right: 9em;
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.time {
+    padding: 10px 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(65, 192, 214);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+.lap, .start, .reset, .stop {
+    padding: 10px 50px;
+    margin: 50px 20px;
+    font-size: 20px;
+    background-color: rgba(66, 211, 155, 0.7);
+}
